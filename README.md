@@ -25,5 +25,6 @@ Before running, ensure that you have the latest version of the script by running
 For each input file, the model will output 
   1) A downsampled version of the raw image, approximatley 15% of the size of the input image
   2) An image which contains every mask of a cell that was counted
+
 In addition, a `csv` file will be generated that contains, for each file, a count of the total number of cells
 
