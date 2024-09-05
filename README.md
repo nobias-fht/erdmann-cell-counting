@@ -20,5 +20,10 @@ Before running, ensure that you have the latest version of the script by running
 2. Run the command `python3 count_cells.py`
 3. Follow the prompts to select the folder with the input files and the location to store the output files
 
+# Output
 
+For each input file, the model will output 
+  1) A downsampled version of the raw image, approximatley 15% of the size of the input image
+  2) An image which contains every mask of a cell that was counted
+In addition, a `csv` file will be generated that contains, for each file, a count of the total number of cells
 
