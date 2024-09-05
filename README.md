@@ -10,7 +10,7 @@ Written by Damian Dalle Nogare at the BioImage Analysis Infrastruture Unit of th
 3. Initialize a git repository by typing `git init`
 4. Pull the latest version of the pipeline using the command `git pull https://github.com/nobias-fht/erdmann-cell-counting`
 5. Create a conda environment by typing `conda env create -f environment.yml`
-
+6. In this folder, create a subfolder called `model` and place in it the model file `erdmamm`
 
 # Running the pipeline
 
